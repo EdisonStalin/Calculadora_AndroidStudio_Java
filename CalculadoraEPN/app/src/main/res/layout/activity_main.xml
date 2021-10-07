@@ -14,10 +14,12 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:background="#2D2E32"
         android:fontFamily="sans-serif"
-        android:textColor="#030303"
-        app:autoSizePresetSizes="@array/autosize_text_sizes"
+        android:textColor="#FF9800"
 
+        android:textSize="24sp"
+        app:autoSizePresetSizes="@array/autosize_text_sizes"
         app:autoSizeTextType="uniform" />
 
     <TextView
@@ -27,9 +29,11 @@
         android:layout_below="@+id/entrada"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
+        android:background="#2D2E32"
         android:text="0"
-        android:textColor="#030303"
+        android:textColor="#FF9800"
         android:textDirection="rtl"
+        android:textSize="16sp"
         app:autoSizePresetSizes="@array/autosize_text_sizes"
         app:autoSizeTextType="uniform" />
 
@@ -57,11 +61,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="SIN"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#2D2E32"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Cos"
@@ -71,11 +76,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="COS"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#2D2E32"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Tan"
@@ -85,11 +91,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="TAN"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#2D2E32"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btnParent"
@@ -98,8 +105,10 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
-                android:text="( )" />
+                android:background="#FF9800"
+                android:text="( )"
+                android:textColor="#2D2E32"
+                android:textSize="24sp" />
 
         </TableRow>
 
@@ -115,11 +124,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="%"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#2D2E32"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Div"
@@ -129,11 +139,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="÷"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#2D2E32"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Mult"
@@ -143,11 +154,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="x"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#2D2E32"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Eliminar"
@@ -156,11 +168,12 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#B96058"
+                android:background="#FF9800"
                 android:text="DEL"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#2D2E32"
+                android:textSize="24sp" />
         </TableRow>
 
         <TableRow
@@ -175,11 +188,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="7"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Ocho"
@@ -189,11 +203,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="8"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Nueve"
@@ -203,11 +218,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="9"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Rest"
@@ -216,11 +232,11 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="-"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505"
+                android:textColor="#2D2E32"
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
@@ -238,11 +254,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="4"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Cinco"
@@ -252,11 +269,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="5"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Seis"
@@ -266,11 +284,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="6"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Sum"
@@ -279,11 +298,11 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="+"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505"
+                android:textColor="#2D2E32"
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
@@ -301,11 +320,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="1"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Dos"
@@ -315,11 +335,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="2"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Tres"
@@ -329,11 +350,12 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="3"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Igual"
@@ -342,11 +364,11 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#B96058"
+                android:background="#FF9800"
                 android:text="="
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505"
+                android:textColor="#2D2E32"
                 android:textSize="24sp"
                 android:textStyle="normal" />
         </TableRow>
@@ -364,11 +386,12 @@
                 android:layout_marginEnd="0dp"
                 android:layout_marginBottom="0dp"
                 android:layout_span="3"
-                android:background="#5A67B6"
+                android:background="#2D2E32"
                 android:text="0"
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505" />
+                android:textColor="#FF9800"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/btn_Punto"
@@ -377,11 +400,11 @@
                 android:layout_marginStart="0dp"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
-                android:background="#EE757373"
+                android:background="#FF9800"
                 android:text="."
                 android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textColor="#050505"
+                android:textColor="#2D2E32"
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
